@@ -3,9 +3,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.accenture.bdl.rmw</groupId>
-	<artifactId>RmwSample7</artifactId>
+	<artifactId>RmwSample</artifactId>
 	<packaging>war</packaging>
-	<name>RmwSample7 Portlet</name>
+	<name>RmwSample Portlet</name>
 	<version>1.0.0-SNAPSHOT</version>
 	<properties>
 	<!-- Liferay 6.2 -->
@@ -25,7 +25,7 @@
 <!-- 		<liferay.app.server.portal.dir>C:\dev\liferay-portal-7.0-ce-ga1\tomcat-8.0.32\webapps\ROOT</liferay.app.server.portal.dir> -->
 	</properties>
 	<build>
-		<finalName>RmwSample7</finalName>
+		<finalName>RmwSample</finalName>
 		<plugins>
 			<plugin>
 				<groupId>com.liferay.maven.plugins</groupId>
