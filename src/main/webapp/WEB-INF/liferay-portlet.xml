@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!DOCTYPE liferay-portlet-app PUBLIC "-//Liferay//DTD Portlet Application 6.2.0//EN" "http://www.liferay.com/dtd/liferay-portlet-app_6_2_0.dtd">
+
+<liferay-portlet-app>
+	<portlet>
+		<portlet-name>RmwSample7.1</portlet-name>
+		<header-portal-css>/html/rmw1/styles.css</header-portal-css>
+		<header-portal-javascript>/html/js/rmw/polyfills.js</header-portal-javascript>
+		<header-portal-javascript>/html/js/rmw/vendor.js</header-portal-javascript>
+	</portlet>
+	<portlet>
+		<portlet-name>RmwSample7.2</portlet-name>
+		<header-portal-css>/html/rmw2/styles.css</header-portal-css>
+		<header-portal-javascript>/html/js/rmw/polyfills.js</header-portal-javascript>
+		<header-portal-javascript>/html/js/rmw/vendor.js</header-portal-javascript>
+	</portlet>
+	<portlet>
+		<portlet-name>RmwSample7.3a</portlet-name>
+		<header-portal-css>/html/rmw3/styles.css</header-portal-css>
+		<header-portal-javascript>/html/rmw3/polyfills.js</header-portal-javascript>
+		<header-portal-javascript>/html/rmw3/vendor.js</header-portal-javascript>
+	</portlet>
+	<portlet>
+		<portlet-name>RmwSample7.3b</portlet-name>
+		<header-portal-css>/html/rmw3/styles.css</header-portal-css>
+		<header-portal-javascript>/html/js/rmw/polyfills.js</header-portal-javascript>
+		<header-portal-javascript>/html/js/rmw/vendor.js</header-portal-javascript>
+	</portlet>
+	<role-mapper>
+		<role-name>administrator</role-name>
+		<role-link>Administrator</role-link>
+	</role-mapper>
+	<role-mapper>
+		<role-name>guest</role-name>
+		<role-link>Guest</role-link>
+	</role-mapper>
+	<role-mapper>
+		<role-name>power-user</role-name>
+		<role-link>Power User</role-link>
+	</role-mapper>
+	<role-mapper>
+		<role-name>user</role-name>
+		<role-link>User</role-link>
+	</role-mapper>
+
+</liferay-portlet-app>
